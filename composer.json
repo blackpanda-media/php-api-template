@@ -1,0 +1,35 @@
+{
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Erick Dyck",
+      "email": "info@erickdyck.de",
+      "homepage": "http://www.erickdyck.de",
+      "role": "Developer"
+    },
+    {
+      "name": "David Pauli",
+      "email": "kontakt@david-pauli.de",
+      "homepage": "https://www.david-pauli.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/blackpanda-media/authentication/issues",
+    "source": "https://github.com/blackpanda-media/authentication"
+  },
+  "require": {
+    "php": "^7.4",
+
+    "blackbonjour/service-manager": "1.2.*",
+    "slim/psr7": "1.3.*",
+    "slim/slim": "4.7.*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}
