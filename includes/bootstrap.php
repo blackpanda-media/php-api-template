@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 define('ROOT_DIR', dirname(__DIR__));
-define('CONFIG_DIR', ROOT_DIR . '/config');
-define('LOG_DIR', ROOT_DIR . '/log');
+const CONFIG_DIR = ROOT_DIR . '/config';
+const LOG_DIR = ROOT_DIR . '/log';
 
 error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 'Off');
